@@ -22,7 +22,7 @@ for i in range(WP_n):
     wp_root.make_children(["Instruments", "Raw Data"])
 
     analysis_root = os.path.join(PROJECT_DIRECTORY, wp_root.parent)
-    AnalysisCLI.cutter(i+1, 1, analysis_root)
+    analysis_cli.cutter(i+1, 1, analysis_root)
 
 
 print(PROJECT_DIRECTORY)
