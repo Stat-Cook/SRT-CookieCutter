@@ -6,7 +6,7 @@ import analysis_cli
 
 PROJECT_DIRECTORY = os.path.realpath(os.path.curdir)
 sys.path.insert(0, PROJECT_DIRECTORY)  # add the working directory to the path
-from hook_modules import DirMaker, DocReplacer
+from hook_modules import DirMaker, DocReplacer, remove_files
 
 WP_n = {{cookiecutter.WP}}
 project_name = '{{cookiecutter.project_name}}'
@@ -31,3 +31,5 @@ dr = DocReplacer(".")
 dr()
 
 rmtree("hook_modules")
+
+remove_files(".")
