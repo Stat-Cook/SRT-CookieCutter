@@ -1,2 +1,2 @@
 cookiecutter
-git+
+git+https://github.com/Stat-Cook/Analysis-CookieCutter
