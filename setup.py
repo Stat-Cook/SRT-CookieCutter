@@ -4,6 +4,9 @@ setup(
     name='srt_cookiecutter',
     version='0.0.1',
     install_requires=[
+        "analysis_cli @ git+https://github.com/Stat-Cook/Analysis-CookieCutter",
+        "python-docx",
+        "cookiecutter"
     ],
     include_package_data=True,
     entry_points='''
