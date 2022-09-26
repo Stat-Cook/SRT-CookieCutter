@@ -1,2 +1,3 @@
 cookiecutter
 git+https://github.com/Stat-Cook/Analysis-CookieCutter
+python-docx
