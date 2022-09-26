@@ -1,0 +1,2 @@
+recursive-include srt_cookiecutter *
+include srt_cookiecutter/{{cookiecutter.project_name}}/*
