@@ -27,9 +27,12 @@ def project_init():
                         default="1", nargs="?", type=int,
                         help='')
 
+    parser.add_argument("-co", "--content_only", action="store_true")
+
     args = parser.parse_args()
 
     val = cutter(args.project_name, args.project_manager,
-                 args.principal_investigator, args.work_packages)
+                 args.principal_investigator, args.work_packages,
+                 args.content_only)
 
     return val
