@@ -12,5 +12,6 @@ setup(
     entry_points='''
     [console_scripts]
     srt_init=srt_cookiecutter.cli:project_init
+    srt_add_wp=srt_cookiecutter.append_wp_cli:append_wp_cli
     '''
 )
